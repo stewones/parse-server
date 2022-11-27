@@ -1,6 +1,6 @@
 // @flow
 // @flow-disable-next Cannot resolve module `parse/node`.
-const Parse = require('parse/node');
+const Parse = require('@intenseloop/parse/node');
 import { logger } from '../logger';
 import Config from '../Config';
 import { internalCreateSchema, internalUpdateSchema } from '../Routers/SchemasRouter';

@@ -1,4 +1,4 @@
-import Parse from 'parse/node';
+import Parse from '@intenseloop/parse/node';
 import { fromGlobalId } from 'graphql-relay';
 import { handleUpload } from '../loaders/filesMutations';
 import * as defaultGraphQLTypes from '../loaders/defaultGraphQLTypes';

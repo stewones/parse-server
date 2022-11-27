@@ -17,7 +17,7 @@
 // database adapter.
 
 import type { Config } from '../../Config';
-import Parse from 'parse/node';
+import Parse from '@intenseloop/parse/node';
 /**
  * @module Adapters
  */

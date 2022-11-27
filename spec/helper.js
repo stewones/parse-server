@@ -193,7 +193,7 @@ const reconfigureServer = (changedConfiguration = {}) => {
 };
 
 // Set up a Parse client to talk to our test API server
-const Parse = require('parse/node');
+const Parse = require('@intenseloop/parse/node');
 Parse.serverURL = 'http://localhost:' + port + '/1';
 
 beforeAll(async () => {

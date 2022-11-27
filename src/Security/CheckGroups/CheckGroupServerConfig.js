@@ -5,7 +5,7 @@
 import { Check } from '../Check';
 import CheckGroup from '../CheckGroup';
 import Config from '../../Config';
-import Parse from 'parse/node';
+import Parse from '@intenseloop/parse/node';
 
 /**
  * The security checks group for Parse Server configuration.

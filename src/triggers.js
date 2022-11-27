@@ -1,5 +1,5 @@
 // triggers.js
-import Parse from 'parse/node';
+import Parse from '@intenseloop/parse/node';
 import { logger } from './logger';
 
 export const Types = {

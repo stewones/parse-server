@@ -1,4 +1,4 @@
-import Parse from 'parse/node';
+import Parse from '@intenseloop/parse/node';
 import deepcopy from 'deepcopy';
 
 export function isPushIncrementing(body) {

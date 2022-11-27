@@ -1,4 +1,4 @@
-import { Parse } from 'parse/node';
+import { Parse } from '@intenseloop/parse/node';
 import * as triggers from '../triggers';
 import Deprecator from '../Deprecator/Deprecator';
 const Config = require('../Config');

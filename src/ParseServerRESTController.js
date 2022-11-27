@@ -1,7 +1,7 @@
 const Config = require('./Config');
 const Auth = require('./Auth');
 const RESTController = require('parse/lib/node/RESTController');
-const Parse = require('parse/node');
+const Parse = require('@intenseloop/parse/node');
 
 function getSessionToken(options) {
   if (options && typeof options.sessionToken === 'string') {

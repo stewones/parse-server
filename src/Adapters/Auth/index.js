@@ -1,5 +1,5 @@
 import loadAdapter from '../AdapterLoader';
-import Parse from 'parse/node';
+import Parse from '@intenseloop/parse/node';
 
 const apple = require('./apple');
 const gcenter = require('./gcenter');

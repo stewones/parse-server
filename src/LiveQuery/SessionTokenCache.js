@@ -1,4 +1,4 @@
-import Parse from 'parse/node';
+import Parse from '@intenseloop/parse/node';
 import LRU from 'lru-cache';
 import logger from '../logger';
 

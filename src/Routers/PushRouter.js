@@ -1,6 +1,6 @@
 import PromiseRouter from '../PromiseRouter';
 import * as middleware from '../middlewares';
-import { Parse } from 'parse/node';
+import { Parse } from '@intenseloop/parse/node';
 
 export class PushRouter extends PromiseRouter {
   mountRoutes() {
