@@ -1,6 +1,6 @@
 {
   "name": "@intenseloop/parse-server",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "An express module providing a Parse-compatible API server",
   "main": "lib/index.js",
   "repository": {
@@ -46,7 +46,7 @@
     "mime": "3.0.0",
     "mongodb": "4.10.0",
     "mustache": "4.2.0",
-    "@intenseloop/parse": "latest",
+    "@intenseloop/parse": "0.0.2",
     "pg-monitor": "1.5.0",
     "pg-promise": "10.12.1",
     "pluralize": "8.0.0",
